@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./global.css" />
+    <style>
+      .container {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .img {
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        width="100px"
+        height="100px"
+        src="https://www.baidu.com/img/flexible/logo/pc/result.png"
+        alt="占位图片"
+        style="border: 1px solid red;"
+        class="img"
+      />
+      <p>
+        every 方法为数组中的每个元素执行一次 callback 函数，直到它找到一个会使
+        callback 返回 falsy 的元素。如果发现了一个这样的元素，every
+        方法将会立即返回 false。否则，callback 为每一个元素返回 true，every
+        就会返回 true。callback
+        只会为那些已经被赋值的索引调用。不会为那些被删除或从未被赋值的索引调用。
+        在 ECMA-262 第 5 版时，every 被添加进 ECMA-262
+        标准；因此，在某些实现环境中，它尚未被支持。你可以把下面的代码放到脚本的开头来解决此问题，该代码允许在那些没有原生支持
+        every 的实现环境中使用它。该算法是 ECMA-262 第 5 版中指定的算法，它假定
+        Object 和 TypeError 拥有它们的初始值，且 fun.call 等价于
+        Function.prototype.call。
+      </p>
+    </div>
+    <div class="goback">
+      <a href="/"> < GO BACK</a>
+    </div>
+  </body>
+</html>
